@@ -1,0 +1,152 @@
+---
+title: 'Just One More Thing'
+format: html
+echo: true
+---
+
+```{ojs}
+md`# Just One More Thing`
+```
+
+```{ojs}
+md`This week, Chris Holmes tweeted something super dangerous:`
+```
+
+```{ojs}
+tweet("1560255501035880448")
+```
+
+```{ojs}
+md`"Dangerous" in the sense that I really don't care much about cars or penguins, but I do 🤎 [Columbo](https://www.imdb.com/title/tt1466074/).
+
+Since more folks are likely going to be using [Quarto](https://quarto.org), and Quarto can embed Observable chunks quite nicely, I figured having a few EDA examples to riff off of might be useful.
+
+This was a quick hack today, but I'll keep adding to it now that I have a fun dataset to play with.`
+```
+
+```{ojs}
+md`### Columbo Episodes Per Year`
+```
+
+```{ojs}
+md`This is a basic bar chart that shows how to use group counts and a custom discrete range.`
+```
+
+```{ojs}
+Plot.plot({
+  width: 1000,
+  caption: html`Number of Columbo episodes per-year`,
+  x: {
+    label: null,
+    domain: d3
+      .range(
+        d3.min(columbo, (d) => Number(d.year)),
+        d3.max(columbo, (d) => Number(d.year)),
+        1
+      )
+      .map((d) => d.toString())
+  },
+  y: {
+    label: "# Episodes",
+    grid: true
+  },
+  marks: [
+    Plot.barY(
+      columbo,
+      Plot.groupX({ y: "count" }, { x: "year", fill: "#b59475" })
+    ),
+    Plot.ruleY([0])
+  ]
+})
+
+```
+
+```{ojs}
+md`### Columbo Directors`
+```
+
+```{ojs}
+md`This is similar to the above, but uses the Y axis for the discrete scale.`
+```
+
+```{ojs}
+Plot.plot({
+  width: 1000,
+  x: {
+    label: null,
+    grid: true,
+    ticks: 8
+  },
+  y: {
+    label: null
+  },
+  caption: html`Columbo Episode Directors`,
+  marginLeft: 100,
+  marks: [
+    Plot.barX(
+      columbo,
+      Plot.groupY(
+        { x: "count" },
+        { y: "directed_by", fill: "#b59475", sort: { y: "x", reverse: true } }
+      )
+    ),
+    Plot.ruleX([0])
+  ]
+})
+```
+
+```{ojs}
+md`### When did Columbo first appear?`
+```
+
+```{ojs}
+md`This one is primarily intended to show sorting.`
+```
+
+```{ojs}
+Plot.plot({
+  width: 1000,
+  x: {
+    label: null,
+    grid: true
+  },
+  y: {
+    label: "Episode #",
+    domain: d3
+      .sort(columbo, (d) => d.columbo_first_appearance)
+      .map((d) => d.episode_index)
+  },
+  caption: "When did Columbo first appear?",
+  marks: [
+    Plot.barX(columbo, {
+      x: "columbo_first_appearance",
+      y: "episode_index",
+      fill: "#b59475"
+    }),
+    Plot.ruleY([0])
+  ]
+})
+
+// columbo_first_appearance
+```
+
+```{ojs}
+columbo = FileAttachment("columbo_data.csv")
+  .csv({ typed: false })
+  .then((data) => {
+    return data.map((row) => {
+      row.season = Number(row.season);
+      row.episode = Number(row.episode);
+      row.episode_index = Number(row.episode_index);
+      row.columbo_first_appearance = Number(row.columbo_first_appearance);
+      row.run_time = Number(row.run_time);
+      row.year = row.original_air_date.substring(0, 4);
+      return row;
+    });
+  })
+```
+
+```{ojs}
+import { tweet } from "@observablehq/tweet"
+```
+

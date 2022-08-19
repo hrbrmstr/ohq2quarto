@@ -1,0 +1,20 @@
+[package]
+name = "ohq2quarto"
+description = "Given an Observable Notebook reference, create a Quarto project with all FileAttachments"
+license = "MIT"
+authors = [ "boB Rudis (@hrbrmstr)" ]
+homepage = "https://github.com/hrbrmstr/ohq2quarto"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+reqwest = { version = "0.11.11", features = [ "blocking" ] }
+scraper = "0.13.0"
+serde = "1.0.137"
+serde_json = "1.0.81"
+serde_derive = "1.0.137"
+clap = { version = "3.1.18", features = ["derive"] }
+shellexpand = "2.1.2"
+downloader = "0.2.6"
