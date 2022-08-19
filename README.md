@@ -7,8 +7,11 @@ Given an ObsHQ reference (full URL or `@user/slug`) and an output directory, thi
 Presently, this is a quick hack over lunch right after doing R and Golang work, so it needs some cleanup. Code context switching isn't fun.
 
 ```shell
-cargo build
-cargo run -- --ohq-ref @hrbrmstr/just-one-more-thing --output-dir ./examples
+cargo build # build it after cloning
+
+cargo run -- --ohq-ref @hrbrmstr/just-one-more-thing --output-dir ./examples # run it after cloning
+
+cargo install --git https://github.com/hrbrmstr/ohq2quarto # install it (~/.cargo/bin/ohq2quarto)
 ```
 
 ```shell
