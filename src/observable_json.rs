@@ -1,5 +1,6 @@
-use serde_derive::{ Serialize, Deserialize};
+// TODO thin this out more so we avoid unnecessary deserialization errors
 
+use serde_derive::{ Serialize, Deserialize};
 #[derive(Debug, Serialize, Deserialize)]
 pub struct ObservableData {
     #[serde(rename = "props")]
