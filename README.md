@@ -2,9 +2,23 @@
 
 Save an [Observable HQ](https://observablehq.com) Notebook to a [Quarto](https://quarto.org/) project.
 
-Given an ObsHQ reference (full URL or `@user/slug`) and an output directory, this utility will make a Quarto project directory, build a `qmd` file and download all `FileAttachment`s.
+Given an Observable Notebook reference (full URL or `@user/slug`) and an output directory, this utility will make a Quarto project directory, build `qmd` & `_quarto.yml` files and download all `FileAttachment`s.
 
-Presently, this is a quick hack over lunch right after doing R and Golang work, so it needs some cleanup. Code context switching isn't fun.
+## TODO
+
+- [ ] [Handle Collections](https://github.com/hrbrmstr/ohq2quarto/issues/2)
+
+## Getting `ohq2quarto`
+
+The [releases](https://github.com/hrbrmstr/ohq2quarto/releases) section has pre-built binaries for Windows and macOS (which is also signed universal binary).
+
+Linux or just DIY folks can:
+
+```shell
+$ cargo install --git https://github.com/hrbrmstr/ohq2quarto # install it (~/.cargo/bin/ohq2quarto)
+```
+
+### Building/Using
 
 ```shell
 $ cargo build # build it after cloning
@@ -43,10 +57,6 @@ md`# Just One More Thing`
 md`This week, Chris Holmes tweeted something super dangerous:`
 ```
 ````
-
-```shell
-$ cargo install --git https://github.com/hrbrmstr/ohq2quarto # install it (~/.cargo/bin/ohq2quarto)
-```
 
 ```shell
 $ cargo run -- --help
