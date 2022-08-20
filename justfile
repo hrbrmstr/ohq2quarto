@@ -8,13 +8,29 @@ build-and-sign:
   codesign --force --verify --verbose --sign "${APPLE_SIGN}" "${HOME}/bin/ohq2quarto"
 
 # the following only works on my linux box b/c "Apple Silicon"
-build-other-targets: 
+build-x86_64-pc-windows-gnu: 
   cross build --target x86_64-pc-windows-gnu
-  cross build --target aarch64-unknown-linux-gnu
+
+build-aarch64-unknown-linux-gnu:
+ cross build --target aarch64-unknown-linux-gnu
+
+build-i686-pc-windows-gnu:
   cross build --target i686-pc-windows-gnu
+
+build-i686-pc-windows-msvc:
   cross build --target i686-pc-windows-msvc
+
+build-i686-unknown-linux-gnu:
   cross build --target i686-unknown-linux-gnu
+
+build-x86_64-apple-darwin:
   cross build --target x86_64-apple-darwin
+
+build-x86_64-pc-windows-gnu:
   cross build --target x86_64-pc-windows-gnu
+
+build-x86_64-pc-windows-msvc:
   cross build --target x86_64-pc-windows-msvc
+
+build-x86_64-unknown-linux-gnu:
   cross build --target x86_64-unknown-linux-gnu
