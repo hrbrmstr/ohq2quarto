@@ -26,9 +26,6 @@ build-i686-unknown-linux-gnu:
 build-x86_64-apple-darwin:
   cross build --target x86_64-apple-darwin
 
-build-x86_64-pc-windows-gnu:
-  cross build --target x86_64-pc-windows-gnu
-
 build-x86_64-pc-windows-msvc:
   cross build --target x86_64-pc-windows-msvc
 
