@@ -2,12 +2,12 @@ use std::path::Path;
 use std::fs::File;
 use std::io::Write;
 
-use clap::{Parser};
+use clap::Parser;
 
 use downloader::Downloader;
 
 mod observable_json;
-use observable_json::{*};
+use observable_json::*;
 
 #[derive(Parser, Debug)]
 #[clap(author, version, about, long_about = None)]
