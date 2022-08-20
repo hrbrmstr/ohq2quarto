@@ -124,7 +124,6 @@ fn main() {
         "md" => writeln!(qmd, "md`{}`", node.value).unwrap(),
         "html" => writeln!(qmd, "html`{}`", node.value).unwrap(),
         _ => writeln!(qmd, "{}", node.value).unwrap()
-
       };
       writeln!(qmd, "```").unwrap();
       writeln!(qmd).unwrap();
