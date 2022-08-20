@@ -4,7 +4,7 @@ description = "Given an Observable Notebook reference, create a Quarto project w
 license = "MIT"
 authors = [ "boB Rudis (@hrbrmstr)" ]
 homepage = "https://github.com/hrbrmstr/ohq2quarto"
-version = "0.2.0"
+version = "0.2.1"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html

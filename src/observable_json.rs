@@ -50,7 +50,134 @@ pub struct PageProps {
 
     // #[serde(rename = "initialContext")]
     // pub initial_context: InitialContext,
+    
+    #[serde(rename = "initialCollection")]
+    pub initial_collection: Option<Collection>,
+
 }
+
+
+#[derive(Debug, Serialize, Deserialize)]
+pub struct Collection {
+    #[serde(rename = "id")]
+    pub id: String,
+
+    #[serde(rename = "type")]
+    pub collection_type: String,
+
+    #[serde(rename = "slug")]
+    pub slug: String,
+
+    #[serde(rename = "title")]
+    pub title: String,
+
+    #[serde(rename = "description")]
+    pub description: String,
+
+    #[serde(rename = "update_time")]
+    pub update_time: String,
+
+    #[serde(rename = "pinned")]
+    pub pinned: bool,
+
+    #[serde(rename = "ordered")]
+    pub ordered: bool,
+
+    #[serde(rename = "custom_thumbnail")]
+    pub custom_thumbnail: Option<serde_json::Value>,
+
+    #[serde(rename = "default_thumbnail")]
+    pub default_thumbnail: String,
+
+    #[serde(rename = "thumbnail")]
+    pub thumbnail: String,
+
+    #[serde(rename = "listing_count")]
+    pub listing_count: i64,
+
+    // #[serde(rename = "owner")]
+    // pub owner: InitialContext,
+
+    #[serde(rename = "listings")]
+    pub listings: Option<Vec<Listing>>,
+
+    #[serde(rename = "parent_collections")]
+    pub parent_collections: Option<Vec<Option<serde_json::Value>>>,
+
+    #[serde(rename = "parent_collection_count")]
+    pub parent_collection_count: Option<i64>,
+}
+
+
+#[derive(Debug, Serialize, Deserialize)]
+pub struct Listing {
+    #[serde(rename = "id")]
+    pub id: String,
+
+    #[serde(rename = "type")]
+    pub purple_type: String,
+
+    #[serde(rename = "publish_level")]
+    pub publish_level: String,
+
+    #[serde(rename = "version")]
+    pub version: i64,
+
+    #[serde(rename = "publish_version")]
+    pub publish_version: i64,
+
+    #[serde(rename = "title")]
+    pub title: String,
+
+    #[serde(rename = "update_time")]
+    pub update_time: String,
+
+    #[serde(rename = "publish_time")]
+    pub publish_time: String,
+
+    #[serde(rename = "likes")]
+    pub likes: i64,
+
+    #[serde(rename = "comment_count")]
+    pub comment_count: i64,
+
+    #[serde(rename = "slug")]
+    pub slug: String,
+
+    #[serde(rename = "thumbnail")]
+    pub thumbnail: String,
+
+    #[serde(rename = "default_thumbnail")]
+    pub default_thumbnail: Option<serde_json::Value>,
+
+    #[serde(rename = "fork_of")]
+    pub fork_of: bool,
+
+    #[serde(rename = "collection_count")]
+    pub collection_count: i64,
+
+    #[serde(rename = "roles")]
+    pub roles: Vec<Option<serde_json::Value>>,
+
+    // #[serde(rename = "authors")]
+    // pub authors: Vec<InitialContext>,
+
+    #[serde(rename = "sharing")]
+    pub sharing: Option<serde_json::Value>,
+
+    #[serde(rename = "notebook_description")]
+    pub notebook_description: String,
+
+    #[serde(rename = "listing_type")]
+    pub listing_type: String,
+
+    // #[serde(rename = "owner")]
+    // pub owner: InitialContext,
+
+    // #[serde(rename = "creator")]
+    // pub creator: InitialContext,
+}
+
 
 #[derive(Debug, Serialize, Deserialize)]
 pub struct InitialContext {
