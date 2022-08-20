@@ -1,0 +1,1389 @@
+{
+    "props":
+    {
+        "pageProps":
+        {
+            "initialNotebook":
+            {
+                "id": "bcaf8c209f1a283f",
+                "slug": "tidy-js-intro-demo",
+                "trashed": false,
+                "description": "",
+                "like": false,
+                "likes": 108,
+                "publish_level": "public",
+                "forks": 2,
+                "fork_of": null,
+                "update_time": "2021-02-24T17:25:21.441Z",
+                "publish_time": "2021-02-02T16:36:21.176Z",
+                "publish_version": 645,
+                "latest_version": 645,
+                "thumbnail": "f4e0b02c026359561c55c81f4e5974b0a789a15152645a2ea5bb0313759463fe",
+                "default_thumbnail": "f4e0b02c026359561c55c81f4e5974b0a789a15152645a2ea5bb0313759463fe",
+                "roles":
+                [
+                    "user"
+                ],
+                "sharing": null,
+                "subscription": null,
+                "owner":
+                {
+                    "id": "26ab57b8a43a5dda",
+                    "github_login": "pbeshai",
+                    "avatar_url": "https://avatars.observableusercontent.com/avatar/db43a100f98fe00872d57f02fe3deb1fe4d5305239db9310ba983a9c7d6efb65",
+                    "login": "pbeshai",
+                    "name": "Peter Beshai",
+                    "bio": "",
+                    "home_url": "http://peterbeshai.com",
+                    "type": "individual",
+                    "tier": "basic"
+                },
+                "creator":
+                {
+                    "id": "26ab57b8a43a5dda",
+                    "github_login": "pbeshai",
+                    "avatar_url": "https://avatars.observableusercontent.com/avatar/db43a100f98fe00872d57f02fe3deb1fe4d5305239db9310ba983a9c7d6efb65",
+                    "login": "pbeshai",
+                    "name": "Peter Beshai",
+                    "bio": "",
+                    "home_url": "http://peterbeshai.com",
+                    "tier": "basic"
+                },
+                "authors":
+                [
+                    {
+                        "id": "26ab57b8a43a5dda",
+                        "avatar_url": "https://avatars.observableusercontent.com/avatar/db43a100f98fe00872d57f02fe3deb1fe4d5305239db9310ba983a9c7d6efb65",
+                        "name": "Peter Beshai",
+                        "login": "pbeshai",
+                        "bio": "",
+                        "home_url": "http://peterbeshai.com",
+                        "github_login": "pbeshai",
+                        "tier": "basic",
+                        "approved": true,
+                        "description": ""
+                    }
+                ],
+                "collections":
+                [
+                    {
+                        "id": "5610fa9dc3f1eab0",
+                        "type": "public",
+                        "slug": "tidy-js",
+                        "title": "tidy.js",
+                        "description": "Examples of using tidy.js to wrangle data",
+                        "update_time": "2021-02-24T22:18:57.641Z",
+                        "pinned": false,
+                        "ordered": false,
+                        "custom_thumbnail": null,
+                        "default_thumbnail": "42469726dbbe2a563c5e6e8e7e7dc36399a5d06ee2d97eec85c7c2b85fcef306",
+                        "thumbnail": "42469726dbbe2a563c5e6e8e7e7dc36399a5d06ee2d97eec85c7c2b85fcef306",
+                        "listing_count": 6,
+                        "parent_collection_count": 0,
+                        "owner":
+                        {
+                            "id": "26ab57b8a43a5dda",
+                            "github_login": "pbeshai",
+                            "avatar_url": "https://avatars.observableusercontent.com/avatar/db43a100f98fe00872d57f02fe3deb1fe4d5305239db9310ba983a9c7d6efb65",
+                            "login": "pbeshai",
+                            "name": "Peter Beshai",
+                            "bio": "",
+                            "home_url": "http://peterbeshai.com",
+                            "type": "individual",
+                            "tier": "basic"
+                        }
+                    }
+                ],
+                "files":
+                [
+                    {
+                        "id": "1a831ee725a0053f20a838aa739750ee7bf8b7f662d29117a01915902323462e4fe30f0d960ddb4728bc25aa4b3b902c4cdfe49de427b2505bc6cebe5c3d3b5a",
+                        "url": "https://static.observableusercontent.com/files/1a831ee725a0053f20a838aa739750ee7bf8b7f662d29117a01915902323462e4fe30f0d960ddb4728bc25aa4b3b902c4cdfe49de427b2505bc6cebe5c3d3b5a",
+                        "download_url": "https://static.observableusercontent.com/files/1a831ee725a0053f20a838aa739750ee7bf8b7f662d29117a01915902323462e4fe30f0d960ddb4728bc25aa4b3b902c4cdfe49de427b2505bc6cebe5c3d3b5a?response-content-disposition=attachment%3Bfilename*%3DUTF-8%27%27who.csv",
+                        "name": "who.csv",
+                        "create_time": "2021-02-01T19:28:34.759Z",
+                        "status": "public",
+                        "size": 1391363,
+                        "mime_type": "text/csv",
+                        "content_encoding": "gzip"
+                    },
+                    {
+                        "id": "afa8a222c392586a3cc8013f91732625afcc1f9994bf9660daccef35340ddf1957610a8ad7170b911074c1d801720f365e2407c3616b7f1d6ec47f6c61ece8f0",
+                        "url": "https://static.observableusercontent.com/files/afa8a222c392586a3cc8013f91732625afcc1f9994bf9660daccef35340ddf1957610a8ad7170b911074c1d801720f365e2407c3616b7f1d6ec47f6c61ece8f0",
+                        "download_url": "https://static.observableusercontent.com/files/afa8a222c392586a3cc8013f91732625afcc1f9994bf9660daccef35340ddf1957610a8ad7170b911074c1d801720f365e2407c3616b7f1d6ec47f6c61ece8f0?response-content-disposition=attachment%3Bfilename*%3DUTF-8%27%27tidy.js",
+                        "name": "tidy.js",
+                        "create_time": "2021-02-02T15:53:40.367Z",
+                        "status": "public",
+                        "size": 40889,
+                        "mime_type": "application/javascript",
+                        "content_encoding": "gzip"
+                    }
+                ],
+                "comments":
+                [
+                    {
+                        "id": "166e9873aa4ff4eb",
+                        "content": "The Markdown says the imports are from '@tidyjs/tidyjs when it's actually  from '@pbeshai/tidyjs  :D",
+                        "node_id": 425,
+                        "create_time": "2022-03-08T20:53:06.414Z",
+                        "update_time": null,
+                        "resolved": false,
+                        "user":
+                        {
+                            "id": "71df97e2192b6fce",
+                            "github_login": "hellonearthis",
+                            "avatar_url": "https://avatars.observableusercontent.com/avatar/ee05023c4c2a9d53e29a4f85f35e35430ae16d2c4aa6a6ca791175caf667abc2",
+                            "login": "hellonearthis",
+                            "name": "Brett Cooper",
+                            "bio": "In New Zealand being kid of human.\n\nWe might make mistakes but we will make other things too.  - \nMichael Joseph Savage",
+                            "home_url": "https://twitter.com/hellonearthis",
+                            "tier": "basic"
+                        }
+                    }
+                ],
+                "commenting_lock": null,
+                "suggestion_from": null,
+                "suggestions_to":
+                [],
+                "version": 645,
+                "title": "tidy.js – Intro & Demo",
+                "license": null,
+                "copyright": "",
+                "nodes":
+                [
+                    {
+                        "id": 0,
+                        "value": "md`# tidy.js – Intro & Demo\n\n**Tidy up your data with JavaScript!** Inspired by [dplyr](https://dplyr.tidyverse.org/) and the [tidyverse](https://www.tidyverse.org/), tidy.js attempts to bring the ergonomics of data manipulation from R to javascript (and typescript). The primary goals of the project are:\n\n* **Readable code**. Tidy.js prioritizes making your data transformations readable, so future you and your teammates can get up and running quickly.\n\n* **Standard transformation verbs**. Tidy.js is built using battle-tested verbs from the R community that can handle any data wrangling need.\n\n* **Work with plain JS objects**. No wrapper classes needed — all tidy.js needs is an array of plain old-fashioned JS objects to get started. Simple in, simple out.\n\nSecondarily, this project aims to provide acceptable types for the functions provided.\n\n#### Shout out to Netflix\n\nI want to give a big shout out to [Netflix](https://research.netflix.com/), my current employer, for giving me the opportunity to work on this project and to open source it. It's a great place to work and if you enjoy tinkering with data-related things, I'd strongly recommend checking out [our analytics department](https://research.netflix.com/research-area/analytics).\n\n#### Quick Links\n\n* [GitHub repo](https://github.com/pbeshai/tidy)\n* [Project homepage](https://pbeshai.github.io/tidy)\n* [API reference documentation](https://pbeshai.github.io/tidy/docs/api/tidy)\n* [Playground](https://pbeshai.github.io/tidy/playground)\n\n#### Related work\n\nBe sure to check out a very similar project, [Arquero](https://github.com/uwdata/arquero), from [UW Data](https://idl.cs.washington.edu/). \n\n\n## Getting started\n\nTo start using tidy, your best bet is to install from npm:\n\n\\`\\`\\`shell\nnpm install @tidyjs/tidy\n# or\nyarn add @tidyjs/tidy\n\\`\\`\\`\n\nThen import the functions you need:\n\n\\`\\`\\`js\nimport { tidy, mutate, arrange, desc } from '@tidyjs/tidy'\n\\`\\`\\`\n\nAnd use them on an array of objects:\n\n\\`\\`\\`js\nconst data = [\n  { a: 1, b: 10 }, \n  { a: 3, b: 12 }, \n  { a: 2, b: 10 }\n]\n\nconst results = tidy(\n  data, \n  mutate({ ab: d => d.a * d.b }),\n  arrange(desc('ab'))\n)\n\\`\\`\\`\n\nThe output is:\n\n\\`\\`\\`js\n[\n  { a: 3, b: 12, ab: 36},\n  { a: 2, b: 10, ab: 20},\n  { a: 1, b: 10, ab: 10}\n]\n\\`\\`\\`\n\n`",
+                        "pinned": false,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 423,
+                        "value": "{\n  const data = [{ a: 1, b: 10 }, { a: 3, b: 12 }, { a: 2, b: 10 }];\n\n  return tidy(data, mutate({ ab: d => d.a * d.b }), arrange(desc('ab')));\n}",
+                        "pinned": false,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 425,
+                        "value": "md`\nAll tidy.js code is wrapped in a **tidy flow** via the \\`tidy()\\` function. The first argument is the array of data, followed by the transformation verbs to run on the data. The actual functions passed to \\`tidy()\\` can be anything so long as they fit the form:\n\n\\`\\`\\`\n(items: object[]) => object[]\n\\`\\`\\`\n\nFor example, the following is valid:\n\n\\`\\`\\`js\ntidy(\n  data, \n  items => items.filter((d, i) => i % 2 === 0),\n  arrange(desc('value'))\n)\n\\`\\`\\`\n\nAll tidy verbs fit this style, with the exception of exports from groupBy, discussed below.\n\n### Grouping data with groupBy\n\nBesides manipulating flat lists of data, tidy provides facilities for wrangling grouped data via the \\`groupBy()\\` function.\n\n\\`\\`\\`js\nimport { tidy, summarize, sum, groupBy } from '@tidyjs/tidy'\n\nconst data = [\n  { key: 'group1', value: 10 }, \n  { key: 'group2', value: 9 }, \n  { key: 'group1', value: 7 }\n]\n\ntidy(\n  data,\n  groupBy('key', [\n    summarize({ total: sum('value') })\n  ])\n)\n\n\\`\\`\\`\n\nThe output is:\n\\`\\`\\`js\n[\n  { \"key\": \"group1\", \"total\": 17 },\n  { \"key\": \"group2\", \"total\": 9 },\n]\n\\`\\`\\`\n`",
+                        "pinned": false,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 434,
+                        "value": "{\n  const data = [\n    { key: 'group1', value: 10 },\n    { key: 'group2', value: 9 },\n    { key: 'group1', value: 7 }\n  ];\n\n  return tidy(data, groupBy('key', [summarize({ total: sum('value') })]));\n}",
+                        "pinned": false,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 431,
+                        "value": "md`\nThe \\`groupBy()\\` function works similarly to \\`tidy()\\` in that it takes a flow of functions as its second argument (wrapped in an array). Things get really fun when you use groupBy's *third* argument for exporting the grouped data into different shapes. \n\nFor example, exporting data as a nested object, we can use \\`groupBy.object()\\` as the third argument to \\`groupBy()\\`.\n \n\\`\\`\\`js\nconst data = [\n  { g: 'a', h: 'x', value: 5 },\n  { g: 'a', h: 'y', value: 15 },\n  { g: 'b', h: 'x', value: 10 },\n  { g: 'b', h: 'x', value: 20 },\n  { g: 'b', h: 'y', value: 30 },\n]\n\ntidy(\n  data,\n  groupBy(\n    ['g', 'h'], \n    [\n      mutate({ key: d => \\`\\${d.g}\\${d.h}\\`})\n    ], \n    groupBy.object() // <-- specify the export\n  )\n);\n\n\\`\\`\\`\n\nThe output is:\n\n\\`\\`\\`js\n{\n  \"a\": {\n    \"x\": [{\"g\": \"a\", \"h\": \"x\", \"value\": 5, \"key\": \"ax\"}],\n    \"y\": [{\"g\": \"a\", \"h\": \"y\", \"value\": 15, \"key\": \"ay\"}]\n  },\n  \"b\": {\n    \"x\": [\n      {\"g\": \"b\", \"h\": \"x\", \"value\": 10, \"key\": \"bx\"},\n      {\"g\": \"b\", \"h\": \"x\", \"value\": 20, \"key\": \"bx\"}\n    ],\n    \"y\": [{\"g\": \"b\", \"h\": \"y\", \"value\": 30, \"key\": \"by\"}]\n  }\n}\n\\`\\`\\`\n\n`",
+                        "pinned": false,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 447,
+                        "value": "{\n  const data = [\n    { g: 'a', h: 'x', value: 5 },\n    { g: 'a', h: 'y', value: 15 },\n    { g: 'b', h: 'x', value: 10 },\n    { g: 'b', h: 'x', value: 20 },\n    { g: 'b', h: 'y', value: 30 }\n  ];\n\n  return tidy(\n    data,\n    groupBy(\n      ['g', 'h'],\n      [mutate({ key: d => `${d.g}${d.h}` })],\n      groupBy.object() // <-- specify the export\n    )\n  );\n}",
+                        "pinned": false,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 444,
+                        "value": "md`\n\nOr alternatively as \\`{ key, values }\\` entries-objects  via \\`groupBy.entriesObject()\\`:\n\n\\`\\`\\`js\ntidy(data,\n  groupBy(\n    ['g', 'h'], \n    [\n      mutate({ key: d => \\`\\${d.g}\\${d.h}\\`})\n    ], \n    groupBy.entriesObject() // <-- specify the export\n  )\n);\n\\`\\`\\`\n\nThe output is:\n\n\\`\\`\\`js\n[\n  {\n    \"key\": \"a\",\n    \"values\": [\n      {\"key\": \"x\", \"values\": [{\"g\": \"a\", \"h\": \"x\", \"value\": 5, \"key\": \"ax\"}]},\n      {\"key\": \"y\", \"values\": [{\"g\": \"a\", \"h\": \"y\", \"value\": 15, \"key\": \"ay\"}]}\n    ]\n  },\n  {\n    \"key\": \"b\",\n    \"values\": [\n      {\n        \"key\": \"x\",\n        \"values\": [\n          {\"g\": \"b\", \"h\": \"x\", \"value\": 10, \"key\": \"bx\"},\n          {\"g\": \"b\", \"h\": \"x\", \"value\": 20, \"key\": \"bx\"}\n        ]\n      },\n      {\"key\": \"y\", \"values\": [{\"g\": \"b\", \"h\": \"y\", \"value\": 30, \"key\": \"by\"}]}\n    ]\n  }\n]\n\\`\\`\\`\n`",
+                        "pinned": false,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 471,
+                        "value": "{\n  const data = [\n    { g: 'a', h: 'x', value: 5 },\n    { g: 'a', h: 'y', value: 15 },\n    { g: 'b', h: 'x', value: 10 },\n    { g: 'b', h: 'x', value: 20 },\n    { g: 'b', h: 'y', value: 30 }\n  ];\n  return tidy(\n    data,\n    groupBy(\n      ['g', 'h'],\n      [mutate({ key: d => `${d.g}${d.h}` })],\n      groupBy.entriesObject() // <-- specify the export\n    )\n  );\n}",
+                        "pinned": false,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 487,
+                        "value": "md`\nIt's common to be left with a single leaf in a groupBy set, especially after running summarize(). To prevent your exported data having its values wrapped in an array, you can pass the \\`single\\` option to it.\n\n\\`\\`\\`js\ntidy(input,\n  groupBy(['g', 'h'], [\n    summarize({ total: sum('value') })\n  ], groupBy.object({ single: true }))\n);\n\\`\\`\\`\n\nThe output is:\n\n\\`\\`\\`js\n{\n  \"a\": {\n    \"x\": {\"total\": 5, \"g\": \"a\", \"h\": \"x\"},\n    \"y\": {\"total\": 15, \"g\": \"a\", \"h\": \"y\"}\n  },\n  \"b\": {\n    \"x\": {\"total\": 30, \"g\": \"b\", \"h\": \"x\"},\n    \"y\": {\"total\": 30, \"g\": \"b\", \"h\": \"y\"}\n  }\n}\n\\`\\`\\`\n\n`\n",
+                        "pinned": false,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 488,
+                        "value": "{\n  const data = [\n    { g: 'a', h: 'x', value: 5 },\n    { g: 'a', h: 'y', value: 15 },\n    { g: 'b', h: 'x', value: 10 },\n    { g: 'b', h: 'x', value: 20 },\n    { g: 'b', h: 'y', value: 30 }\n  ];\n  return tidy(\n    data,\n    groupBy(\n      ['g', 'h'],\n      [summarize({ total: sum('value') })],\n      groupBy.object({ single: true })\n    )\n  );\n}",
+                        "pinned": false,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 467,
+                        "value": "md`\nVisit the [API reference docs](https://pbeshai.github.io/tidy/docs/api/tidy) to learn more about how each function works and all the options they take. Be sure to check out the \\`levels\\` export, which can let you mix-and-match different export types based on the depth of the data. For quick reference, other available groupBy exports include: \n\n* groupBy.entries()\n* groupBy.entriesObject()\n* groupBy.grouped()\n* groupBy.levels()\n* groupBy.object()\n* groupBy.keys()\n* groupBy.map()\n* groupBy.values()\n\nThe rest of this notebook will work through [Hadley Wickham's Tidy Data](https://r4ds.had.co.nz/tidy-data.html) chapter, replicated in tidy.js, but first a playground.\n\n`",
+                        "pinned": false,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 57,
+                        "value": "md`\n---\n\n# Playground\nHere's a playground for you to give tidy.js a shot. Edit the code below and see a table showing the output. Many tidy functions have been added directly to the workbook, but the rest are available under \\`T.*\\` e.g. \\`T.mutateWithSummary({ ... })\\` \n`",
+                        "pinned": false,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 18,
+                        "value": "output = tidy(\n  cars,\n  groupBy(\n    ['cyl', 'gear'],\n    [\n      summarize({\n        n: n(),\n        mpg: mean('mpg'),\n        hp: mean('hp'),\n        wt: mean('wt')\n      })\n    ]\n  ),\n  select(['cyl', 'gear', everything()]),\n  arrange([desc('n'), desc('mpg')])\n)",
+                        "pinned": true,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 54,
+                        "value": "table(output)",
+                        "pinned": false,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 504,
+                        "value": "md`---`",
+                        "pinned": false,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 110,
+                        "value": "md`# Replicating Hadley Wickham's Tidy Data chapter\n\n Similar to [Arquero's notebook](https://observablehq.com/@jheer/tidy-data-in-javascript), this notebook will also try to replicate [Hadley Wickham's Tidy Data](https://r4ds.had.co.nz/tidy-data.html) to demonstrate how to use tidy.js. \n\n## 12.2 Tidy data\n\nComputing rates per 10,000 with **mutate()**, **rate()**, and **TMath.rate()**\n`",
+                        "pinned": false,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 115,
+                        "value": "table(\n  tidy(\n    table1,\n    mutate({\n      rate: d => (d.cases / d.population) * 10000,\n\n      '|': '|', // visual spacer for table()\n      // alternatively, use the `rate()` function for safety around division by 0 and nully values\n      // rate2: rate('cases', 'population'),\n      rate2: rate(d => d.cases * 10000, 'population'),\n      // or the TMath.rate function directly:\n      rate3: d => TMath.rate(d.cases, d.population) * 10000\n    })\n  )\n)",
+                        "pinned": true,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 515,
+                        "value": "md`Compute cases per year with a weighted **count()**`",
+                        "pinned": false,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 156,
+                        "value": "table(tidy(table1, count('year', { wt: 'cases' })))",
+                        "pinned": true,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 176,
+                        "value": "md`## 12.3 Pivoting\n\nKeywords include: gather, spread, melt, reshape2, pivot_longer, pivot_wider\n\n### 12.3.1 Pivot Longer\n\nInitial table\n`",
+                        "pinned": false,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 187,
+                        "value": "table(table4a)",
+                        "pinned": true,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 521,
+                        "value": "md`Pivot longer based on the years columns`",
+                        "pinned": false,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 178,
+                        "value": "table(\n  tidy(\n    table4a,\n    pivotLonger({\n      cols: ['1999', '2000'],\n      namesTo: 'year',\n      valuesTo: 'cases'\n    })\n  )\n)",
+                        "pinned": true,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 524,
+                        "value": "md`Do the same thing on a second table with population data`",
+                        "pinned": false,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 181,
+                        "value": "table(\n  tidy(\n    table4b,\n    pivotLonger({\n      cols: ['1999', '2000'],\n      namesTo: 'year',\n      valuesTo: 'population'\n    })\n  )\n)",
+                        "pinned": true,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 527,
+                        "value": "md`Now join them together with the ever-handy **leftJoin()**`",
+                        "pinned": false,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 197,
+                        "value": "{\n  let tidy4a = tidy(\n    table4a,\n    pivotLonger({\n      cols: ['1999', '2000'],\n      namesTo: 'year',\n      valuesTo: 'cases'\n    })\n  );\n  let tidy4b = tidy(\n    table4b,\n    pivotLonger({\n      cols: ['1999', '2000'],\n      namesTo: 'year',\n      valuesTo: 'population'\n    })\n  );\n\n  return table(tidy(tidy4a, leftJoin(tidy4b)));\n}",
+                        "pinned": true,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 206,
+                        "value": "md`### 12.3.2 Pivot Wider\n\nThe opposite of pivotLonger, we've got **pivotWider()**. Initial table:\n`",
+                        "pinned": false,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 208,
+                        "value": "table(table2)",
+                        "pinned": true,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 531,
+                        "value": "md`Pivot wider, making cases and population new columns and dropping type and count.`",
+                        "pinned": false,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 211,
+                        "value": "table(tidy(table2, pivotWider({ namesFrom: 'type', valuesFrom: 'count' })))",
+                        "pinned": true,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 533,
+                        "value": "md`Optionally, you can re-arrange keys in the output with **select()**:`",
+                        "pinned": false,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 217,
+                        "value": "// or re-arrange\ntable(\n  tidy(\n    table2,\n    pivotWider({ namesFrom: 'type', valuesFrom: 'count' }),\n    select(['country', 'year', everything()])\n  )\n)",
+                        "pinned": true,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 225,
+                        "value": "md`## 12.4 Separating and uniting\n\nTidy.js doesn't currently provide **separate()** or **unite()**, but they are similarly accomplished with **mutate()** and **select()**. If there's enough need, they may be added.\n\n### 12.4.1 Separate\n\nInitial data`",
+                        "pinned": false,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 229,
+                        "value": "table(table3)",
+                        "pinned": true,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 540,
+                        "value": "md`Split the rate column into two columns: case and population, similar to separate():`",
+                        "pinned": false,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 231,
+                        "value": "// tidy doesn't provide a separate command (yet?), but you could use mutate\ntable(\n  tidy(\n    table3,\n    mutate({\n      rate: d => d.rate.split('/'),\n      cases: d => +d.rate[0],\n      population: d => +d.rate[1]\n    }),\n    select('-rate')\n  )\n)",
+                        "pinned": true,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 549,
+                        "value": "md`Alternatively, you can always use map() instead of mutate():`",
+                        "pinned": false,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 234,
+                        "value": "// or you could use map\ntable(\n  tidy(\n    table3,\n    map(d => {\n      const [cases, population] = d.rate.split('/').map(x => +x);\n      return { ...d, cases, population };\n    }),\n    select('-rate')\n  )\n)",
+                        "pinned": true,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 244,
+                        "value": "md`### 12.4.2 Unite\n\ntidy.js doesn't currently provide unite, but we can use **mutate()** and **select()** to concatenate century and year:`",
+                        "pinned": false,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 246,
+                        "value": "// there's no unite (yet), but a mutate + select will do the trick\ntable(\n  tidy(\n    table5,\n    mutate({ new: d => `${d.century}_${d.year}` }),\n    select(['-century', '-year'])\n  )\n)",
+                        "pinned": true,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 560,
+                        "value": "md`We can combine however we please with whatever js code we'd like, including converting from string to number by prefixing with \\`+\\``",
+                        "pinned": false,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 266,
+                        "value": "table(\n  tidy(\n    table5,\n    mutate({ new: d => +`${d.century}${d.year}` }),\n    select(['-century', '-year'])\n  )\n)",
+                        "pinned": true,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 277,
+                        "value": "md`## 12.5 Missing Values\n\nInitial data:`",
+                        "pinned": false,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 283,
+                        "value": "table(stocks)",
+                        "pinned": true,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 564,
+                        "value": "md`By pivoting wider we can demonstrate there are missing values more clearly`",
+                        "pinned": false,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 285,
+                        "value": "table(tidy(stocks, pivotWider({ namesFrom: 'year', valuesFrom: 'return' })))",
+                        "pinned": true,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 566,
+                        "value": "md`We can remove rows that are missing with **filter()**, or similarly with an anonymous function like \\`items => items.filter(...)\\``",
+                        "pinned": false,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 287,
+                        "value": "// drop out missing values\ntable(\n  tidy(\n    stocks,\n    pivotWider({ namesFrom: 'year', valuesFrom: 'return' }),\n    pivotLonger({\n      cols: ['2015', '2016'],\n      namesTo: 'year',\n      valuesTo: 'return'\n    }),\n    // pivotLonger does not have values_drop_na at the moment\n    filter(d => d.return != null)\n  )\n)",
+                        "pinned": true,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 568,
+                        "value": "md`We can use **complete()** to add in items that are missing from an expected sequence.`",
+                        "pinned": false,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 296,
+                        "value": "// use complete to make missing values explicit\ntable(tidy(stocks, complete(['year', 'qtr'])))",
+                        "pinned": true,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 570,
+                        "value": "md`Initial data for **fill()** example:`",
+                        "pinned": false,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 300,
+                        "value": "treatment = [\n  { person: 'Derrick Whitmore', treatment: 1, response: 7 },\n  { treatment: 2, response: 10 },\n  { person: undefined, treatment: 3, response: 9 },\n  { person: 'Katherine Burke', treatment: 1, response: 4 }\n]",
+                        "pinned": true,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 306,
+                        "value": "table(treatment)",
+                        "pinned": true,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 573,
+                        "value": "md`We can use **fill()** to fill in missing values with their last seen value`",
+                        "pinned": false,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 303,
+                        "value": "// fill in columns with last seen values\ntable(tidy(treatment, fill('person')))",
+                        "pinned": true,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 308,
+                        "value": "md`## 12.6 Case Study\n\nFollow along in [Hadley's chapter](https://r4ds.had.co.nz/tidy-data.html#case-study) for context and details\n`",
+                        "pinned": false,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 310,
+                        "value": "table(who.slice(0, 20))",
+                        "pinned": true,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 313,
+                        "value": "who1 = tidy(\n  who,\n  pivotLonger({ cols: startsWith('new'), namesTo: 'key', valuesTo: 'cases' }),\n  filter(d => d.cases !== 'NA')\n)",
+                        "pinned": true,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 318,
+                        "value": "table(who1.slice(0, 20))",
+                        "pinned": true,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 325,
+                        "value": "table(tidy(who1, count('key')))",
+                        "pinned": true,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 332,
+                        "value": "who2 = tidy(who1, mutate({ key: d => d.key.replace('newrel', 'new_rel') }))",
+                        "pinned": true,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 337,
+                        "value": "table(who2.filter(d => d.key.includes('new_rel')).slice(0, 15))",
+                        "pinned": true,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 346,
+                        "value": "who3 = tidy(\n  who2,\n  mutate({\n    key: d => d.key.split('_'),\n    new: d => d.key[0],\n    type: d => d.key[1],\n    sexage: d => d.key[2]\n  }),\n  select(['-key'])\n)",
+                        "pinned": true,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 347,
+                        "value": "table(who3.slice(0, 6))",
+                        "pinned": true,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 356,
+                        "value": "table(tidy(who3, count('new')))",
+                        "pinned": true,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 358,
+                        "value": "who4 = tidy(who3, select(['-new', '-iso2', '-iso3']))",
+                        "pinned": true,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 360,
+                        "value": "who5 = tidy(\n  who4,\n  mutate({\n    sexage: d => [d.sexage[0], d.sexage.substring(1)],\n    sex: d => d.sexage[0],\n    age: d => +d.sexage[1]\n  }),\n  select('-sexage')\n)",
+                        "pinned": true,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 366,
+                        "value": "table(who5.slice(0, 10))",
+                        "pinned": true,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 369,
+                        "value": "// all together now\ntable(\n  tidy(\n    who,\n    pivotLonger({ cols: startsWith('new'), namesTo: 'key', valuesTo: 'cases' }),\n    filter(d => d.cases !== 'NA'),\n    mutate({ key: d => d.key.replace('newrel', 'new_rel') }),\n    // separate equivalent:\n    mutate({\n      key: d => d.key.split('_'),\n      new: d => d.key[0],\n      type: d => d.key[1],\n      sexage: d => d.key[2]\n    }),\n    // separate equivalent:\n    mutate({\n      sexage: d => [d.sexage[0], d.sexage.substring(1)],\n      sex: d => d.sexage[0],\n      age: d => +d.sexage[1]\n    }),\n    select(['-key', '-new', '-iso2', '-iso3', '-sexage'])\n  ).slice(0, 20)\n)",
+                        "pinned": true,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 2,
+                        "value": "md`---\n## Appendix`",
+                        "pinned": false,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 10,
+                        "value": "viewof tidyjsfile = html`<input type=file accept=\".js\">`",
+                        "pinned": true,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 14,
+                        "value": "d3 = require('d3-array', 'd3-dsv')",
+                        "pinned": true,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 12,
+                        "value": "module = require(URL.createObjectURL(tidyjsfile))",
+                        "pinned": true,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 119,
+                        "value": "import {\n  tidy,\n  startsWith,\n  groupBy,\n  summarize,\n  sum,\n  mutate,\n  select,\n  n,\n  mean,\n  everything,\n  arrange,\n  desc,\n  filter,\n  rate,\n  TMath,\n  pivotWider,\n  pivotLonger,\n  leftJoin,\n  count,\n  map,\n  complete,\n  fill\n} from '@pbeshai/tidyjs' // observable import",
+                        "pinned": true,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 599,
+                        "value": "module_attachment = require(await FileAttachment(\"tidy.js\").url())",
+                        "pinned": true,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 21,
+                        "value": "cars=[\n  { \"name\": \"Mazda RX4\", \"mpg\": 21, \"cyl\": 6, \"disp\": 160, \"hp\": 110, \"drat\": 3.9, \"wt\": 2.62, \"qsec\": 16.46, \"vs\": 0, \"am\": 1, \"gear\": 4, \"carb\": 4 },\n  { \"name\": \"Mazda RX4 Wag\", \"mpg\": 21, \"cyl\": 6, \"disp\": 160, \"hp\": 110, \"drat\": 3.9, \"wt\": 2.875, \"qsec\": 17.02, \"vs\": 0, \"am\": 1, \"gear\": 4, \"carb\": 4 },\n  { \"name\": \"Datsun 710\", \"mpg\": 22.8, \"cyl\": 4, \"disp\": 108, \"hp\": 93, \"drat\": 3.85, \"wt\": 2.32, \"qsec\": 18.61, \"vs\": 1, \"am\": 1, \"gear\": 4, \"carb\": 1 },\n  { \"name\": \"Hornet 4 Drive\", \"mpg\": 21.4, \"cyl\": 6, \"disp\": 258, \"hp\": 110, \"drat\": 3.08, \"wt\": 3.215, \"qsec\": 19.44, \"vs\": 1, \"am\": 0, \"gear\": 3, \"carb\": 1 },\n  { \"name\": \"Hornet Sportabout\", \"mpg\": 18.7, \"cyl\": 8, \"disp\": 360, \"hp\": 175, \"drat\": 3.15, \"wt\": 3.44, \"qsec\": 17.02, \"vs\": 0, \"am\": 0, \"gear\": 3, \"carb\": 2 },\n  { \"name\": \"Valiant\", \"mpg\": 18.1, \"cyl\": 6, \"disp\": 225, \"hp\": 105, \"drat\": 2.76, \"wt\": 3.46, \"qsec\": 20.22, \"vs\": 1, \"am\": 0, \"gear\": 3, \"carb\": 1 },\n  { \"name\": \"Duster 360\", \"mpg\": 14.3, \"cyl\": 8, \"disp\": 360, \"hp\": 245, \"drat\": 3.21, \"wt\": 3.57, \"qsec\": 15.84, \"vs\": 0, \"am\": 0, \"gear\": 3, \"carb\": 4 },\n  { \"name\": \"Merc 240D\", \"mpg\": 24.4, \"cyl\": 4, \"disp\": 146.7, \"hp\": 62, \"drat\": 3.69, \"wt\": 3.19, \"qsec\": 20, \"vs\": 1, \"am\": 0, \"gear\": 4, \"carb\": 2 },\n  { \"name\": \"Merc 230\", \"mpg\": 22.8, \"cyl\": 4, \"disp\": 140.8, \"hp\": 95, \"drat\": 3.92, \"wt\": 3.15, \"qsec\": 22.9, \"vs\": 1, \"am\": 0, \"gear\": 4, \"carb\": 2 },\n  { \"name\": \"Merc 280\", \"mpg\": 19.2, \"cyl\": 6, \"disp\": 167.6, \"hp\": 123, \"drat\": 3.92, \"wt\": 3.44, \"qsec\": 18.3, \"vs\": 1, \"am\": 0, \"gear\": 4, \"carb\": 4 },\n  { \"name\": \"Merc 280C\", \"mpg\": 17.8, \"cyl\": 6, \"disp\": 167.6, \"hp\": 123, \"drat\": 3.92, \"wt\": 3.44, \"qsec\": 18.9, \"vs\": 1, \"am\": 0, \"gear\": 4, \"carb\": 4 },\n  { \"name\": \"Merc 450SE\", \"mpg\": 16.4, \"cyl\": 8, \"disp\": 275.8, \"hp\": 180, \"drat\": 3.07, \"wt\": 4.07, \"qsec\": 17.4, \"vs\": 0, \"am\": 0, \"gear\": 3, \"carb\": 3 },\n  { \"name\": \"Merc 450SL\", \"mpg\": 17.3, \"cyl\": 8, \"disp\": 275.8, \"hp\": 180, \"drat\": 3.07, \"wt\": 3.73, \"qsec\": 17.6, \"vs\": 0, \"am\": 0, \"gear\": 3, \"carb\": 3 },\n  { \"name\": \"Merc 450SLC\", \"mpg\": 15.2, \"cyl\": 8, \"disp\": 275.8, \"hp\": 180, \"drat\": 3.07, \"wt\": 3.78, \"qsec\": 18, \"vs\": 0, \"am\": 0, \"gear\": 3, \"carb\": 3 },\n  { \"name\": \"Cadillac Fleetwood\", \"mpg\": 10.4, \"cyl\": 8, \"disp\": 472, \"hp\": 205, \"drat\": 2.93, \"wt\": 5.25, \"qsec\": 17.98, \"vs\": 0, \"am\": 0, \"gear\": 3, \"carb\": 4 },\n  { \"name\": \"Lincoln Continental\", \"mpg\": 10.4, \"cyl\": 8, \"disp\": 460, \"hp\": 215, \"drat\": 3, \"wt\": 5.424, \"qsec\": 17.82, \"vs\": 0, \"am\": 0, \"gear\": 3, \"carb\": 4 },\n  { \"name\": \"Chrysler Imperial\", \"mpg\": 14.7, \"cyl\": 8, \"disp\": 440, \"hp\": 230, \"drat\": 3.23, \"wt\": 5.345, \"qsec\": 17.42, \"vs\": 0, \"am\": 0, \"gear\": 3, \"carb\": 4 },\n  { \"name\": \"Fiat 128\", \"mpg\": 32.4, \"cyl\": 4, \"disp\": 78.7, \"hp\": 66, \"drat\": 4.08, \"wt\": 2.2, \"qsec\": 19.47, \"vs\": 1, \"am\": 1, \"gear\": 4, \"carb\": 1 },\n  { \"name\": \"Honda Civic\", \"mpg\": 30.4, \"cyl\": 4, \"disp\": 75.7, \"hp\": 52, \"drat\": 4.93, \"wt\": 1.615, \"qsec\": 18.52, \"vs\": 1, \"am\": 1, \"gear\": 4, \"carb\": 2 },\n  { \"name\": \"Toyota Corolla\", \"mpg\": 33.9, \"cyl\": 4, \"disp\": 71.1, \"hp\": 65, \"drat\": 4.22, \"wt\": 1.835, \"qsec\": 19.9, \"vs\": 1, \"am\": 1, \"gear\": 4, \"carb\": 1 },\n  { \"name\": \"Toyota Corona\", \"mpg\": 21.5, \"cyl\": 4, \"disp\": 120.1, \"hp\": 97, \"drat\": 3.7, \"wt\": 2.465, \"qsec\": 20.01, \"vs\": 1, \"am\": 0, \"gear\": 3, \"carb\": 1 },\n  { \"name\": \"Dodge Challenger\", \"mpg\": 15.5, \"cyl\": 8, \"disp\": 318, \"hp\": 150, \"drat\": 2.76, \"wt\": 3.52, \"qsec\": 16.87, \"vs\": 0, \"am\": 0, \"gear\": 3, \"carb\": 2 },\n  { \"name\": \"AMC Javelin\", \"mpg\": 15.2, \"cyl\": 8, \"disp\": 304, \"hp\": 150, \"drat\": 3.15, \"wt\": 3.435, \"qsec\": 17.3, \"vs\": 0, \"am\": 0, \"gear\": 3, \"carb\": 2 },\n  { \"name\": \"Camaro Z28\", \"mpg\": 13.3, \"cyl\": 8, \"disp\": 350, \"hp\": 245, \"drat\": 3.73, \"wt\": 3.84, \"qsec\": 15.41, \"vs\": 0, \"am\": 0, \"gear\": 3, \"carb\": 4 },\n  { \"name\": \"Pontiac Firebird\", \"mpg\": 19.2, \"cyl\": 8, \"disp\": 400, \"hp\": 175, \"drat\": 3.08, \"wt\": 3.845, \"qsec\": 17.05, \"vs\": 0, \"am\": 0, \"gear\": 3, \"carb\": 2 },\n  { \"name\": \"Fiat X1-9\", \"mpg\": 27.3, \"cyl\": 4, \"disp\": 79, \"hp\": 66, \"drat\": 4.08, \"wt\": 1.935, \"qsec\": 18.9, \"vs\": 1, \"am\": 1, \"gear\": 4, \"carb\": 1 },\n  { \"name\": \"Porsche 914-2\", \"mpg\": 26, \"cyl\": 4, \"disp\": 120.3, \"hp\": 91, \"drat\": 4.43, \"wt\": 2.14, \"qsec\": 16.7, \"vs\": 0, \"am\": 1, \"gear\": 5, \"carb\": 2 },\n  { \"name\": \"Lotus Europa\", \"mpg\": 30.4, \"cyl\": 4, \"disp\": 95.1, \"hp\": 113, \"drat\": 3.77, \"wt\": 1.513, \"qsec\": 16.9, \"vs\": 1, \"am\": 1, \"gear\": 5, \"carb\": 2 },\n  { \"name\": \"Ford Pantera L\", \"mpg\": 15.8, \"cyl\": 8, \"disp\": 351, \"hp\": 264, \"drat\": 4.22, \"wt\": 3.17, \"qsec\": 14.5, \"vs\": 0, \"am\": 1, \"gear\": 5, \"carb\": 4 },\n  { \"name\": \"Ferrari Dino\", \"mpg\": 19.7, \"cyl\": 6, \"disp\": 145, \"hp\": 175, \"drat\": 3.62, \"wt\": 2.77, \"qsec\": 15.5, \"vs\": 0, \"am\": 1, \"gear\": 5, \"carb\": 6 },\n  { \"name\": \"Maserati Bora\", \"mpg\": 15, \"cyl\": 8, \"disp\": 301, \"hp\": 335, \"drat\": 3.54, \"wt\": 3.57, \"qsec\": 14.6, \"vs\": 0, \"am\": 1, \"gear\": 5, \"carb\": 8 },\n  { \"name\": \"Volvo 142E\", \"mpg\": 21.4, \"cyl\": 4, \"disp\": 121, \"hp\": 109, \"drat\": 4.11, \"wt\": 2.78, \"qsec\": 18.6, \"vs\": 1, \"am\": 1, \"gear\": 4, \"carb\": 2 }\n]",
+                        "pinned": false,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 50,
+                        "value": "import {Table} from \"@observablehq/inputs\"",
+                        "pinned": true,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 611,
+                        "value": "// switch from tmcw table to observablehq and just use same name\ntable = Table",
+                        "pinned": true,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 61,
+                        "value": "table1csv = `country,year,cases,population\nAfghanistan,1999,745,19987071\nAfghanistan,2000,2666,20595360\nBrazil,1999,37737,172006362\nBrazil,2000,80488,174504898\nChina,1999,212258,1272915272\nChina,2000,213766,1280428583`",
+                        "pinned": true,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 63,
+                        "value": "table1 = d3.csvParse(table1csv, d => ({ ...d, year: +d.year, cases: +d.cases, population: +d.population }))",
+                        "pinned": true,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 73,
+                        "value": "table2csv = `country,year,type,count\nAfghanistan,1999,cases,745\nAfghanistan,1999,population,19987071\nAfghanistan,2000,cases,2666\nAfghanistan,2000,population,20595360\nBrazil,1999,cases,37737\nBrazil,1999,population,172006362\nBrazil,2000,cases,80488\nBrazil,2000,population,174504898\nChina,1999,cases,212258\nChina,1999,population,1272915272\nChina,2000,cases,213766\nChina,2000,population,1280428583`",
+                        "pinned": true,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 75,
+                        "value": "table2 = d3.csvParse(table2csv, d => ({ ...d, year: +d.year, count: +d.count }))",
+                        "pinned": true,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 80,
+                        "value": "table3csv=`country,year,rate\nAfghanistan,1999,745/19987071\nAfghanistan,2000,2666/20595360\nBrazil,1999,37737/172006362\nBrazil,2000,80488/174504898\nChina,1999,212258/1272915272\nChina,2000,213766/1280428583\n`",
+                        "pinned": true,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 82,
+                        "value": "table3 = d3.csvParse(table3csv, d => ({ ...d, year: +d.year }))",
+                        "pinned": true,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 84,
+                        "value": "table4acsv = `country,1999,2000\nAfghanistan,745,2666\nBrazil,37737,80488\nChina,212258,213766`",
+                        "pinned": true,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 86,
+                        "value": "table4a = d3.csvParse(table4acsv, d => ({ ...d, '1999': +d['1999'], '2000': +d['2000'] }))",
+                        "pinned": true,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 88,
+                        "value": "table4bcsv = `country,1999,2000\nAfghanistan,19987071,20595360\nBrazil,172006362,174504898\nChina,1272915272,1280428583`",
+                        "pinned": true,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 90,
+                        "value": "table4b = d3.csvParse(table4bcsv, d => ({ ...d, '1999': +d['1999'], '2000': +d['2000'] }))",
+                        "pinned": true,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 248,
+                        "value": "table5 = tidy(\n  table3,\n  mutate({\n    century: d => `${Math.floor(d.year / 100)}`,\n    year: d => `${d.year % 100}`.padStart(2, '0')\n  }),\n  select(['country', 'century', 'year', 'rate'])\n)",
+                        "pinned": true,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 104,
+                        "value": "whocsv = await FileAttachment(\"who.csv\").text()",
+                        "pinned": true,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 95,
+                        "value": "who = d3.csvParse(whocsv, d => ({ ...d, year: +d.year,}))",
+                        "pinned": true,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    },
+                    {
+                        "id": 280,
+                        "value": "stocks = [\n  { year: 2015, qtr: 1, return: 1.88 },\n  { year: 2015, qtr: 2, return: 0.59 },\n  { year: 2015, qtr: 3, return: 0.35 },\n  { year: 2015, qtr: 4, return: null },\n  { year: 2016, qtr: 2, return: 0.92 },\n  { year: 2016, qtr: 3, return: 0.17 },\n  { year: 2016, qtr: 4, return: 2.66 }\n]",
+                        "pinned": true,
+                        "mode": "js",
+                        "data": null,
+                        "name": null
+                    }
+                ],
+                "resolutions":
+                []
+            },
+            "initialAutosave": true,
+            "initialSafe": false,
+            "initialCurrentUser":
+            {
+                "id": "4193fbe2c8b30fd3",
+                "github_login": "hrbrmstr",
+                "avatar_url": "https://avatars.observableusercontent.com/avatar/a26fc528815774e5c1e5ba21faf0a748a105234dd4c0fad8293732ef66c00f82",
+                "login": "hrbrmstr",
+                "name": "boB Rudis",
+                "bio": "Don't look at me…I do what he does—just slower. #rstats avuncular • Chef • Cyclist • Christian • [Master] Chef des Données de Sécurité • #tired",
+                "home_url": "http://rud.is/b",
+                "email": "bob@rud.is",
+                "google_email": null,
+                "twitter_login": null,
+                "create_time": "2018-01-31T16:08:14.734Z",
+                "features":
+                [
+                    "curated_search_results"
+                ],
+                "settings":
+                {
+                    "autoclose_pairs": "true",
+                    "default_cell_mode": "",
+                    "help_signpost": "3",
+                    "notebook_autonext": "true",
+                    "prettier": "true",
+                    "signpost_help": "hide",
+                    "signpost_insertmenu": "3",
+                    "spellcheck": "true",
+                    "tip_dismissed_welcome_v1": "Sun Apr 04 2021 08:27:43 GMT-0400 (Eastern Daylight Time)"
+                },
+                "profile_email": "",
+                "links":
+                [],
+                "selected_banner": null,
+                "uploaded_banner": null,
+                "microsoft_id": null,
+                "otp_id": null,
+                "pronouns": "",
+                "tier": "basic",
+                "delinquent": false,
+                "teams":
+                [],
+                "identities":
+                [
+                    {
+                        "id": "cb913fe9716f99e8",
+                        "provider": "github",
+                        "provider_org": "",
+                        "login": "hrbrmstr",
+                        "name": "boB Rudis",
+                        "email": "bob@rud.is",
+                        "bio": "🇺🇦 Pampa • Don't look at me…I do what he does—just slower. #rstats avuncular•👨‍🍳•✝️• 💤• Varaforseti í Gögn Vísindi @ GreyNoise + CMU Lecturer #BLM",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/509878?v=4",
+                        "home_url": "http://rud.is/b"
+                    }
+                ]
+            },
+            "initialContext":
+            {
+                "id": "26ab57b8a43a5dda",
+                "github_login": "pbeshai",
+                "avatar_url": "https://avatars.observableusercontent.com/avatar/db43a100f98fe00872d57f02fe3deb1fe4d5305239db9310ba983a9c7d6efb65",
+                "login": "pbeshai",
+                "name": "Peter Beshai",
+                "bio": "",
+                "home_url": "http://peterbeshai.com",
+                "type": "individual",
+                "tier": "basic"
+            },
+            "initialCollection":
+            {
+                "id": "5610fa9dc3f1eab0",
+                "type": "public",
+                "slug": "tidy-js",
+                "title": "tidy.js",
+                "description": "Examples of using tidy.js to wrangle data",
+                "update_time": "2021-02-24T22:18:57.641Z",
+                "pinned": false,
+                "ordered": false,
+                "custom_thumbnail": null,
+                "default_thumbnail": "42469726dbbe2a563c5e6e8e7e7dc36399a5d06ee2d97eec85c7c2b85fcef306",
+                "thumbnail": "42469726dbbe2a563c5e6e8e7e7dc36399a5d06ee2d97eec85c7c2b85fcef306",
+                "listing_count": 6,
+                "owner":
+                {
+                    "id": "26ab57b8a43a5dda",
+                    "github_login": "pbeshai",
+                    "avatar_url": "https://avatars.observableusercontent.com/avatar/db43a100f98fe00872d57f02fe3deb1fe4d5305239db9310ba983a9c7d6efb65",
+                    "login": "pbeshai",
+                    "name": "Peter Beshai",
+                    "bio": "",
+                    "home_url": "http://peterbeshai.com",
+                    "type": "individual",
+                    "tier": "basic"
+                },
+                "listings":
+                [
+                    {
+                        "id": "a476ce385b75bc7f",
+                        "type": "notebook_reader",
+                        "publish_level": "public",
+                        "version": 166,
+                        "publish_version": 166,
+                        "title": "tidy.js - zero-filling yearly bar charts with complete()",
+                        "update_time": "2021-03-23T15:30:14.190Z",
+                        "publish_time": "2021-03-23T15:30:14.190Z",
+                        "likes": 1,
+                        "comment_count": 0,
+                        "slug": "tidy-js-zero-filling-yearly-bar-charts-with-complete",
+                        "thumbnail": "42469726dbbe2a563c5e6e8e7e7dc36399a5d06ee2d97eec85c7c2b85fcef306",
+                        "default_thumbnail": null,
+                        "fork_of": false,
+                        "collection_count": 1,
+                        "roles":
+                        [],
+                        "authors":
+                        [
+                            {
+                                "id": "26ab57b8a43a5dda",
+                                "avatar_url": "https://avatars.observableusercontent.com/avatar/db43a100f98fe00872d57f02fe3deb1fe4d5305239db9310ba983a9c7d6efb65",
+                                "name": "Peter Beshai",
+                                "login": "pbeshai",
+                                "bio": "",
+                                "home_url": "http://peterbeshai.com",
+                                "github_login": "pbeshai",
+                                "tier": "basic",
+                                "approved": true,
+                                "description": ""
+                            }
+                        ],
+                        "sharing": null,
+                        "notebook_description": "",
+                        "listing_type": "notebook",
+                        "owner":
+                        {
+                            "type": "individual",
+                            "id": "26ab57b8a43a5dda",
+                            "github_login": "pbeshai",
+                            "login": "pbeshai",
+                            "name": "Peter Beshai",
+                            "bio": "",
+                            "home_url": "http://peterbeshai.com",
+                            "avatar_url": "https://avatars.observableusercontent.com/avatar/db43a100f98fe00872d57f02fe3deb1fe4d5305239db9310ba983a9c7d6efb65",
+                            "tier": "basic"
+                        },
+                        "creator":
+                        {
+                            "type": "individual",
+                            "id": "26ab57b8a43a5dda",
+                            "github_login": "pbeshai",
+                            "login": "pbeshai",
+                            "name": "Peter Beshai",
+                            "bio": "",
+                            "home_url": "http://peterbeshai.com",
+                            "avatar_url": "https://avatars.observableusercontent.com/avatar/db43a100f98fe00872d57f02fe3deb1fe4d5305239db9310ba983a9c7d6efb65",
+                            "tier": "basic"
+                        }
+                    },
+                    {
+                        "id": "8b770ac8cd0fe392",
+                        "type": "notebook_reader",
+                        "publish_level": "public",
+                        "version": 208,
+                        "publish_version": 208,
+                        "title": "tidy.js - converting data to percentages of a whole",
+                        "update_time": "2021-05-07T19:19:58.215Z",
+                        "publish_time": "2021-03-03T18:57:55.940Z",
+                        "likes": 5,
+                        "comment_count": 0,
+                        "slug": "tidy-js-converting-data-to-percentages-of-a-whole",
+                        "thumbnail": "0b420857867937133d983b7146fb758fa055cce1885d300f8c644ef5c9dcc575",
+                        "default_thumbnail": null,
+                        "fork_of": false,
+                        "collection_count": 1,
+                        "roles":
+                        [],
+                        "authors":
+                        [
+                            {
+                                "id": "26ab57b8a43a5dda",
+                                "avatar_url": "https://avatars.observableusercontent.com/avatar/db43a100f98fe00872d57f02fe3deb1fe4d5305239db9310ba983a9c7d6efb65",
+                                "name": "Peter Beshai",
+                                "login": "pbeshai",
+                                "bio": "",
+                                "home_url": "http://peterbeshai.com",
+                                "github_login": "pbeshai",
+                                "tier": "basic",
+                                "approved": true,
+                                "description": ""
+                            }
+                        ],
+                        "sharing": null,
+                        "notebook_description": "",
+                        "listing_type": "notebook",
+                        "owner":
+                        {
+                            "type": "individual",
+                            "id": "26ab57b8a43a5dda",
+                            "github_login": "pbeshai",
+                            "login": "pbeshai",
+                            "name": "Peter Beshai",
+                            "bio": "",
+                            "home_url": "http://peterbeshai.com",
+                            "avatar_url": "https://avatars.observableusercontent.com/avatar/db43a100f98fe00872d57f02fe3deb1fe4d5305239db9310ba983a9c7d6efb65",
+                            "tier": "basic"
+                        },
+                        "creator":
+                        {
+                            "type": "individual",
+                            "id": "26ab57b8a43a5dda",
+                            "github_login": "pbeshai",
+                            "login": "pbeshai",
+                            "name": "Peter Beshai",
+                            "bio": "",
+                            "home_url": "http://peterbeshai.com",
+                            "avatar_url": "https://avatars.observableusercontent.com/avatar/db43a100f98fe00872d57f02fe3deb1fe4d5305239db9310ba983a9c7d6efb65",
+                            "tier": "basic"
+                        }
+                    },
+                    {
+                        "id": "13da1c9c6714778b",
+                        "type": "notebook_reader",
+                        "publish_level": "public",
+                        "version": 70,
+                        "publish_version": 70,
+                        "title": "tidy.js - groupBy: summarize while keeping reference to items",
+                        "update_time": "2021-05-07T19:19:29.247Z",
+                        "publish_time": "2021-02-05T23:32:50.409Z",
+                        "likes": 4,
+                        "comment_count": 0,
+                        "slug": "tidy-js-groupby-summarize-while-keeping-reference-to-items",
+                        "thumbnail": "0ca929f0063e5917a8d9ffa891e295910ddcfaa08fbf896a45a7302848dfe483",
+                        "default_thumbnail": null,
+                        "fork_of": false,
+                        "collection_count": 1,
+                        "roles":
+                        [],
+                        "authors":
+                        [
+                            {
+                                "id": "26ab57b8a43a5dda",
+                                "avatar_url": "https://avatars.observableusercontent.com/avatar/db43a100f98fe00872d57f02fe3deb1fe4d5305239db9310ba983a9c7d6efb65",
+                                "name": "Peter Beshai",
+                                "login": "pbeshai",
+                                "bio": "",
+                                "home_url": "http://peterbeshai.com",
+                                "github_login": "pbeshai",
+                                "tier": "basic",
+                                "approved": true,
+                                "description": ""
+                            }
+                        ],
+                        "sharing": null,
+                        "notebook_description": "",
+                        "listing_type": "notebook",
+                        "owner":
+                        {
+                            "type": "individual",
+                            "id": "26ab57b8a43a5dda",
+                            "github_login": "pbeshai",
+                            "login": "pbeshai",
+                            "name": "Peter Beshai",
+                            "bio": "",
+                            "home_url": "http://peterbeshai.com",
+                            "avatar_url": "https://avatars.observableusercontent.com/avatar/db43a100f98fe00872d57f02fe3deb1fe4d5305239db9310ba983a9c7d6efb65",
+                            "tier": "basic"
+                        },
+                        "creator":
+                        {
+                            "type": "individual",
+                            "id": "26ab57b8a43a5dda",
+                            "github_login": "pbeshai",
+                            "login": "pbeshai",
+                            "name": "Peter Beshai",
+                            "bio": "",
+                            "home_url": "http://peterbeshai.com",
+                            "avatar_url": "https://avatars.observableusercontent.com/avatar/db43a100f98fe00872d57f02fe3deb1fe4d5305239db9310ba983a9c7d6efb65",
+                            "tier": "basic"
+                        }
+                    },
+                    {
+                        "id": "eb159cd244d1afa5",
+                        "type": "notebook_reader",
+                        "publish_level": "public",
+                        "version": 195,
+                        "publish_version": 195,
+                        "title": "tidyjs",
+                        "update_time": "2021-09-24T00:47:53.194Z",
+                        "publish_time": "2021-02-24T17:20:00.613Z",
+                        "likes": 9,
+                        "comment_count": 0,
+                        "slug": "tidyjs",
+                        "thumbnail": "432b20744a9e64498f7bd7cab85b79ea205e9ba919222cee61980d4d5e1e0123",
+                        "default_thumbnail": null,
+                        "fork_of": false,
+                        "collection_count": 1,
+                        "roles":
+                        [],
+                        "authors":
+                        [
+                            {
+                                "id": "26ab57b8a43a5dda",
+                                "avatar_url": "https://avatars.observableusercontent.com/avatar/db43a100f98fe00872d57f02fe3deb1fe4d5305239db9310ba983a9c7d6efb65",
+                                "name": "Peter Beshai",
+                                "login": "pbeshai",
+                                "bio": "",
+                                "home_url": "http://peterbeshai.com",
+                                "github_login": "pbeshai",
+                                "tier": "basic",
+                                "approved": true,
+                                "description": ""
+                            }
+                        ],
+                        "sharing": null,
+                        "notebook_description": "",
+                        "listing_type": "notebook",
+                        "owner":
+                        {
+                            "type": "individual",
+                            "id": "26ab57b8a43a5dda",
+                            "github_login": "pbeshai",
+                            "login": "pbeshai",
+                            "name": "Peter Beshai",
+                            "bio": "",
+                            "home_url": "http://peterbeshai.com",
+                            "avatar_url": "https://avatars.observableusercontent.com/avatar/db43a100f98fe00872d57f02fe3deb1fe4d5305239db9310ba983a9c7d6efb65",
+                            "tier": "basic"
+                        },
+                        "creator":
+                        {
+                            "type": "individual",
+                            "id": "26ab57b8a43a5dda",
+                            "github_login": "pbeshai",
+                            "login": "pbeshai",
+                            "name": "Peter Beshai",
+                            "bio": "",
+                            "home_url": "http://peterbeshai.com",
+                            "avatar_url": "https://avatars.observableusercontent.com/avatar/db43a100f98fe00872d57f02fe3deb1fe4d5305239db9310ba983a9c7d6efb65",
+                            "tier": "basic"
+                        }
+                    },
+                    {
+                        "id": "bcaf8c209f1a283f",
+                        "type": "notebook_reader",
+                        "publish_level": "public",
+                        "version": 645,
+                        "publish_version": 645,
+                        "title": "tidy.js – Intro & Demo",
+                        "update_time": "2021-02-24T17:25:21.441Z",
+                        "publish_time": "2021-02-02T16:36:21.176Z",
+                        "likes": 108,
+                        "comment_count": 1,
+                        "slug": "tidy-js-intro-demo",
+                        "thumbnail": "f4e0b02c026359561c55c81f4e5974b0a789a15152645a2ea5bb0313759463fe",
+                        "default_thumbnail": null,
+                        "fork_of": false,
+                        "collection_count": 1,
+                        "roles":
+                        [],
+                        "authors":
+                        [
+                            {
+                                "id": "26ab57b8a43a5dda",
+                                "avatar_url": "https://avatars.observableusercontent.com/avatar/db43a100f98fe00872d57f02fe3deb1fe4d5305239db9310ba983a9c7d6efb65",
+                                "name": "Peter Beshai",
+                                "login": "pbeshai",
+                                "bio": "",
+                                "home_url": "http://peterbeshai.com",
+                                "github_login": "pbeshai",
+                                "tier": "basic",
+                                "approved": true,
+                                "description": ""
+                            }
+                        ],
+                        "sharing": null,
+                        "notebook_description": "",
+                        "listing_type": "notebook",
+                        "owner":
+                        {
+                            "type": "individual",
+                            "id": "26ab57b8a43a5dda",
+                            "github_login": "pbeshai",
+                            "login": "pbeshai",
+                            "name": "Peter Beshai",
+                            "bio": "",
+                            "home_url": "http://peterbeshai.com",
+                            "avatar_url": "https://avatars.observableusercontent.com/avatar/db43a100f98fe00872d57f02fe3deb1fe4d5305239db9310ba983a9c7d6efb65",
+                            "tier": "basic"
+                        },
+                        "creator":
+                        {
+                            "type": "individual",
+                            "id": "26ab57b8a43a5dda",
+                            "github_login": "pbeshai",
+                            "login": "pbeshai",
+                            "name": "Peter Beshai",
+                            "bio": "",
+                            "home_url": "http://peterbeshai.com",
+                            "avatar_url": "https://avatars.observableusercontent.com/avatar/db43a100f98fe00872d57f02fe3deb1fe4d5305239db9310ba983a9c7d6efb65",
+                            "tier": "basic"
+                        }
+                    },
+                    {
+                        "id": "44ccf22ff3418cd3",
+                        "type": "notebook_reader",
+                        "publish_level": "public",
+                        "version": 200,
+                        "publish_version": 200,
+                        "title": "tidy.js - prep data for Multi-Line Charts",
+                        "update_time": "2021-05-07T19:21:13.073Z",
+                        "publish_time": "2021-02-24T19:18:46.147Z",
+                        "likes": 20,
+                        "comment_count": 1,
+                        "slug": "tidy-js-prep-data-for-multi-line-charts",
+                        "thumbnail": "c99b91984da61c9affbe9775f87da41bbe970644855d4079f2092c7210533e34",
+                        "default_thumbnail": null,
+                        "fork_of": false,
+                        "collection_count": 1,
+                        "roles":
+                        [],
+                        "authors":
+                        [
+                            {
+                                "id": "26ab57b8a43a5dda",
+                                "avatar_url": "https://avatars.observableusercontent.com/avatar/db43a100f98fe00872d57f02fe3deb1fe4d5305239db9310ba983a9c7d6efb65",
+                                "name": "Peter Beshai",
+                                "login": "pbeshai",
+                                "bio": "",
+                                "home_url": "http://peterbeshai.com",
+                                "github_login": "pbeshai",
+                                "tier": "basic",
+                                "approved": true,
+                                "description": ""
+                            }
+                        ],
+                        "sharing": null,
+                        "notebook_description": "",
+                        "listing_type": "notebook",
+                        "owner":
+                        {
+                            "type": "individual",
+                            "id": "26ab57b8a43a5dda",
+                            "github_login": "pbeshai",
+                            "login": "pbeshai",
+                            "name": "Peter Beshai",
+                            "bio": "",
+                            "home_url": "http://peterbeshai.com",
+                            "avatar_url": "https://avatars.observableusercontent.com/avatar/db43a100f98fe00872d57f02fe3deb1fe4d5305239db9310ba983a9c7d6efb65",
+                            "tier": "basic"
+                        },
+                        "creator":
+                        {
+                            "type": "individual",
+                            "id": "26ab57b8a43a5dda",
+                            "github_login": "pbeshai",
+                            "login": "pbeshai",
+                            "name": "Peter Beshai",
+                            "bio": "",
+                            "home_url": "http://peterbeshai.com",
+                            "avatar_url": "https://avatars.observableusercontent.com/avatar/db43a100f98fe00872d57f02fe3deb1fe4d5305239db9310ba983a9c7d6efb65",
+                            "tier": "basic"
+                        }
+                    }
+                ],
+                "parent_collections":
+                []
+            }
+        },
+        "__N_SSP": true
+    },
+    "page": "/[at]/[...specifiers]",
+    "query":
+    {
+        "collection": "@pbeshai/tidy-js",
+        "at": "@pbeshai",
+        "specifiers":
+        [
+            "@pbeshai",
+            "tidy-js-intro-demo"
+        ]
+    },
+    "buildId": "P613zbLODaR0aqmjfqIgp",
+    "isFallback": false,
+    "gssp": true,
+    "scriptLoader":
+    []
+}
