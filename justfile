@@ -2,7 +2,7 @@
 
 # render project
 build-and-sign:
-	cargo build --target=aarch64-apple-darwin --release && \
+  cargo build --target=aarch64-apple-darwin --release && \
   cargo build --target=x86_64-apple-darwin --release && \
   lipo -create -output "${HOME}/bin/ohq2quarto" target/aarch64-apple-darwin/release/ohq2quarto target/x86_64-apple-darwin/release/ohq2quarto && \
   codesign --force --verify --verbose --sign "${APPLE_SIGN}" "${HOME}/bin/ohq2quarto"
