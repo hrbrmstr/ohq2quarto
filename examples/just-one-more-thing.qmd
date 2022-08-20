@@ -1,7 +1,9 @@
 ---
 title: 'Just One More Thing'
+author: 'boB Rudis'
 format: html
-echo: true
+echo: false
+observable: 'https://observablehq.com/@hrbrmstr/just-one-more-thing'
 ---
 
 ```{ojs}

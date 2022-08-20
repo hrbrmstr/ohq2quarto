@@ -52,10 +52,10 @@ pub struct PageProps {
     // pub initial_context: InitialContext,
 }
 
-// #[derive(Debug, Serialize, Deserialize)]
-// pub struct InitialContext {
-    // #[serde(rename = "id")]
-    // pub id: String,
+#[derive(Debug, Serialize, Deserialize)]
+pub struct InitialContext {
+    #[serde(rename = "id")]
+    pub id: String,
 
     // #[serde(rename = "github_login")]
     // pub github_login: String,
@@ -66,8 +66,8 @@ pub struct PageProps {
     // #[serde(rename = "login")]
     // pub login: String,
 
-    // #[serde(rename = "name")]
-    // pub name: String,
+    #[serde(rename = "name")]
+    pub name: String,
 
     // #[serde(rename = "bio")]
     // pub bio: String,
@@ -86,7 +86,7 @@ pub struct PageProps {
 
     // #[serde(rename = "description")]
     // pub description: Option<String>,
-// }
+}
 
 #[derive(Debug, Serialize, Deserialize)]
 pub struct InitialNotebook {
@@ -144,8 +144,8 @@ pub struct InitialNotebook {
     // #[serde(rename = "creator")]
     // pub creator: InitialContext,
 
-    // #[serde(rename = "authors")]
-    // pub authors: Vec<InitialContext>,
+    #[serde(rename = "authors")]
+    pub authors: Vec<InitialContext>,
 
     // #[serde(rename = "collections")]
     // pub collections: Vec<Option<serde_json::Value>>,
@@ -165,17 +165,17 @@ pub struct InitialNotebook {
     // #[serde(rename = "suggestions_to")]
     // pub suggestions_to: Vec<Option<serde_json::Value>>,
 
-    // #[serde(rename = "version")]
-    // pub version: i64,
+    #[serde(rename = "version")]
+    pub version: i64,
 
     #[serde(rename = "title")]
     pub title: String,
 
-    // #[serde(rename = "license")]
-    // pub license: Option<serde_json::Value>,
+    #[serde(rename = "license")]
+    pub license: Option<serde_json::Value>,
 
-    // #[serde(rename = "copyright")]
-    // pub copyright: String,
+    #[serde(rename = "copyright")]
+    pub copyright: String,
 
     #[serde(rename = "nodes")]
     pub nodes: Vec<Node>,

@@ -7,16 +7,50 @@ Given an ObsHQ reference (full URL or `@user/slug`) and an output directory, thi
 Presently, this is a quick hack over lunch right after doing R and Golang work, so it needs some cleanup. Code context switching isn't fun.
 
 ```shell
-cargo build # build it after cloning
+$ cargo build # build it after cloning
+```
 
-cargo run -- --ohq-ref @hrbrmstr/just-one-more-thing --output-dir ./examples # run it after cloning
+````shell
+$ cargo run -- --ohq-ref @hrbrmstr/just-one-more-thing --output-dir ./examples --verbose # run it after cloning
+    Finished dev [unoptimized + debuginfo] target(s) in 0.08s
+     Running `target/debug/ohq2quarto --ohq-ref '@hrbrmstr/just-one-more-thing' --output-dir ./examples --verbose`
+      Title: Just One More Thing
+       Slug: just-one-more-thing
+  Author(s): boB Rudis
+  Copyright: Copyright 2022 boB Rudis
+    License: "mit"
+ Observable: https://observablehq.com/@hrbrmstr/just-one-more-thing
 
-cargo install --git https://github.com/hrbrmstr/ohq2quarto # install it (~/.cargo/bin/ohq2quarto)
+$ tree examples
+├── _quarto.yml
+├── columbo_data.csv
+└── just-one-more-thing.qmd
+
+$ head -16 examples/just-one-more-thing.qmd
+---
+title: 'Just One More Thing'
+author: 'boB Rudis'
+format: html
+echo: false
+observable: 'https://observablehq.com/@hrbrmstr/just-one-more-thing'
+---
+
+```{ojs}
+md`# Just One More Thing`
+```
+
+```{ojs}
+md`This week, Chris Holmes tweeted something super dangerous:`
+```
+````
+
+```shell
+$ cargo install --git https://github.com/hrbrmstr/ohq2quarto # install it (~/.cargo/bin/ohq2quarto)
 ```
 
 ```shell
-cargo run -- --help
-    Finished dev [unoptimized + debuginfo] target(s) in 0.06s
+$ cargo run -- --help
+    Finished dev [unoptimized + debuginfo] target(s) in 0.08s
      Running `target/debug/ohq2quarto --help`
 ohq2quarto 0.1.0
 boB Rudis (@hrbrmstr)
@@ -26,8 +60,8 @@ USAGE:
     ohq2quarto [OPTIONS] --ohq-ref <OHQ_REF> --output-dir <OUTPUT_DIR>
 
 OPTIONS:
-        --echo <echo>                turn cell echo or off in the Quarto document (default is to not
-                                     echo) [default: false]
+        --echo                       turn cell echo on in the Quarto document (default is to not
+                                     echo)
         --filename <FILENAME>        optional filename for the main Quarto document (will be taken
                                      from the slug in `ohq_ref`; e.g. "just-the-facts" from the
                                      example param)
@@ -37,6 +71,5 @@ OPTIONS:
         --output-dir <OUTPUT_DIR>    directory to place Quarto project and files (will be created if
                                      it does not exist)
     -V, --version                    Print version information
+        --verbose                    Print Notebook metadata during processing
 ```
-
-(More docs / pre-built binaries / `cargo install …` / etc. forthcoming.)
