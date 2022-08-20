@@ -12,7 +12,7 @@ Given an Observable Notebook reference (full URL or `@user/slug`) and an output 
 
 ## Getting `ohq2quarto`
 
-The [releases](https://github.com/hrbrmstr/ohq2quarto/releases) section has pre-built binaries for Linux (x86_64), Windows and macOS (which is also signed universal binary).
+The [releases](https://github.com/hrbrmstr/ohq2quarto/releases) section has pre-built binaries for Linux (x86\_64 & arm64), Windows and macOS (which is also a signed universal binary).
 
 DIY folks can:
 
