@@ -7,6 +7,8 @@ Given an Observable Notebook reference (full URL or `@user/slug`) and an output 
 ## TODO
 
 - [ ] [Handle Collections](https://github.com/hrbrmstr/ohq2quarto/issues/2)
+- [ ] [Make this a lib+bin](https://github.com/hrbrmstr/ohq2quarto/issues/3)
+- [ ] [Publish on crates.io](https://github.com/hrbrmstr/ohq2quarto/issues/4)
 
 ## Getting `ohq2quarto`
 
