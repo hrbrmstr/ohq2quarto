@@ -17,7 +17,7 @@ The [releases](https://github.com/hrbrmstr/ohq2quarto/releases) section has pre-
 DIY folks can:
 
 ```shell
-$ cargo install --git https://github.com/hrbrmstr/ohq2quarto # install it (~/.cargo/bin/ohq2quarto)
+$ cargo install --git https://github.com/hrbrmstr/ohq2quarto --branch batman # install it (~/.cargo/bin/ohq2quarto)
 ```
 
 ### Building/Using
